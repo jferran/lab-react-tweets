@@ -4,8 +4,6 @@ import Timestamp from "./Timestamp";
 import Message from "./Message";
 import Actions from "./Actions";
 function Tweet(props) {
-  const { message, timestamp, user } = props.tweet
-  console.log(props)
   return (
     <div className="tweet">
       <ProfileImage image={props.tweet.user.image} />
